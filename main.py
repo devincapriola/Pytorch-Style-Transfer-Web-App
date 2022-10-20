@@ -3,6 +3,7 @@ from PIL import Image
 
 import style
 
+st.set_page_config(layout="wide")
 st.title("Pytorch Style Transfer Web App")
 st.write("Upload an image to apply the candy style to it.")
 
