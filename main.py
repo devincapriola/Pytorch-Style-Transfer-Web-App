@@ -7,6 +7,8 @@ st.set_page_config(layout="wide")
 st.title("Pytorch Style Transfer Web App")
 st.write("Upload an image to apply the candy style to it.")
 
+
+# candy.pth | mosaic.pth | rain_princess.pth | udnie.pth
 style_model = "saved_models/candy.pth"
 
 uploaded_file = st.file_uploader("Choose an image...", type="jpg")
